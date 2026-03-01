@@ -61,3 +61,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "sidekiq", "~> 8.1"
+
+gem "sidekiq-cron", "~> 2.3"
+
+gem "tailwindcss-rails", "~> 4.4"
