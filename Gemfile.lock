@@ -80,7 +80,7 @@ GEM
     bcrypt_pbkdf (1.1.2-arm64-darwin)
     bcrypt_pbkdf (1.1.2-x86_64-darwin)
     benchmark (0.5.0)
-    bigdecimal (4.0.1)
+    bigdecimal (4.1.2)
     bindex (0.8.1)
     bootsnap (1.23.0)
       msgpack (~> 1.2)
@@ -133,7 +133,7 @@ GEM
     jbuilder (2.14.1)
       actionview (>= 7.0.0)
       activesupport (>= 7.0.0)
-    json (2.18.1)
+    json (2.19.5)
     json-schema (6.1.0)
       addressable (~> 2.8)
       bigdecimal (>= 3.1, < 5)
@@ -165,7 +165,7 @@ GEM
     mcp (0.7.1)
       json-schema (>= 4.1)
     mini_mime (1.1.5)
-    minitest (6.0.2)
+    minitest (6.0.6)
       drb (~> 2.0)
       prism (~> 1.5)
     msgpack (1.8.0)
@@ -228,7 +228,7 @@ GEM
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.2.5)
+    rack (3.2.6)
     rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
@@ -272,7 +272,7 @@ GEM
       erb
       psych (>= 4.0.0)
       tsort
-    redis-client (0.26.4)
+    redis-client (0.28.0)
       connection_pool
     regexp_parser (2.11.3)
     reline (0.6.3)
@@ -322,7 +322,7 @@ GEM
       logger (>= 1.7.0)
       rack (>= 3.2.0)
       redis-client (>= 0.26.0)
-    sidekiq-cron (2.3.1)
+    sidekiq-cron (2.4.0)
       cronex (>= 0.13.0)
       fugit (~> 1.8, >= 1.11.1)
       globalid (>= 1.0.1)
@@ -422,7 +422,7 @@ DEPENDENCIES
   rubocop-rails-omakase
   selenium-webdriver
   sidekiq (~> 8.1)
-  sidekiq-cron (~> 2.3)
+  sidekiq-cron (~> 2.4)
   solid_cable
   solid_cache
   solid_queue
